@@ -11,7 +11,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot' "syntax highlighting"
 call plug#end()
 
-" Install xclip with your package manager to have clipbaord acces with "+y
+" Install xclip with your package manager to have clipboard access with "+y
 
 " Some basics:
 	nnoremap c "_c
