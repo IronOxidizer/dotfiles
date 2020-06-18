@@ -1,4 +1,4 @@
 #!/bin/sh
 export xprop -root -notype PULSE_SERVER | tr -d ' '
 PULSE_SERVER=unix:/tmp/pulse-PKdhtXMmr18n/native
-flatpak run com.discordapp.Discord
+flatpak run com.slack.Slack
