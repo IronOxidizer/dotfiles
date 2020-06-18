@@ -1,16 +1,17 @@
 let mapleader =","
 
-if ! filereadable(expand('~/.config/nvim/autoload/plug.vim'))
-	echo "Downloading junegunn/vim-plug to manage plugins..."
-	silent !mkdir -p ~/.config/nvim/autoload/
-	silent !curl "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim" > ~/.config/nvim/autoload/plug.vim
-	autocmd VimEnter * PlugInstall
+if empty(glob('~/.config/nvim/autoload/plug.vim'))
+  !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot' "syntax highlighting"
 call plug#end()
+
+" Install xclip with your package manager to have clipbaord acces with "+y
 
 " Some basics:
 	nnoremap c "_c
@@ -29,3 +30,4 @@ call plug#end()
 	map <leader>s :!clear && shellcheck %<CR>
 " Automatically deletes all trailing whitespace on save.
 	autocmd BufWritePre * %s/\s\+$//e
+	
