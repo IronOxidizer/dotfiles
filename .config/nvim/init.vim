@@ -12,6 +12,7 @@ Plug 'sheerun/vim-polyglot' "syntax highlighting"
 call plug#end()
 
 " Install xclip with your package manager to have clipboard access with "+y
+" Install node (npm) with you packge manager for coc.nvim
 
 " Some basics:
 	nnoremap c "_c
