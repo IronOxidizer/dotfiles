@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/main/Development/tyltgo-webapp/src/app/modules/business/pages/dashboard/support/modals/feedback'
+let g:netrw_dirhist_8='/home/main/Development/tyltgo-webapp/src/app/modules/business/pages/dashboard/support/contact-support'
+let g:netrw_dirhist_7='/home/main/Development/tyltgo-webapp/src/app/modules/business/pages/dashboard/billing/order-preview'
+let g:netrw_dirhist_6='/home/main/Development/tyltgo-dispatch/src/app/modules/incoming-sme/views/driver-list'
+let g:netrw_dirhist_5='/home/main/Development/tyltgo-dispatch/src/app/modules/incoming-sme/views/home'
+let g:netrw_dirhist_4='/home/main/Development/tyltgo-dispatch/src/app/modules/messaging/views/message-preview'
+let g:netrw_dirhist_3='/home/main/Development/tyltgo-dispatch/src/app/modules/messaging/views/home'
+let g:netrw_dirhist_2='/home/main/Development/tyltgo-dispatch/src/app/data/services'
+let g:netrw_dirhist_1='/home/main/dotfiles/.local/bin'
