@@ -1,2 +1,2 @@
 # dotfiles
-Dotfiles for i3 / sway
+Dotfiles for DWM / DWL
