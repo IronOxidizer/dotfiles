@@ -15,7 +15,8 @@ Plug 'Valloric/MatchTagAlways'
 " ^ MatchTagAlways requires `pip install neovim` which requires `apk add py-pip python3-dev`
 call plug#end()
 
-" Install xclip with your package manager to have clipbaord acces with "+y
+" Install xclip with your package manager to have clipboard access with "+y
+" Install node (npm) with you packge manager for coc.nvim
 
 " Javascript tab settings
 	set tabstop=2 shiftwidth=2 expandtab smarttab
@@ -37,3 +38,4 @@ call plug#end()
 	map <leader>s :!clear && shellcheck %<CR>
 " Automatically deletes all trailing whitespace on save.
 	autocmd BufWritePre * %s/\s\+$//e
+
