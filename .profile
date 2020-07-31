@@ -1,4 +1,4 @@
-export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/.local/bin:$HOME/node_modules/.bin"
 
 # Default programs
 export EDITOR="nvim"
